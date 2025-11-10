@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook – Log In or Sign Up</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .left {
+      width: 40%;
+    }
+
+    .left h1 {
+      color: #1877f2;
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    .left p {
+      font-size: 24px;
+      color: #1c1e21;
+    }
+
+    .right {
+      width: 30%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .right input {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .login-btn {
+      background-color: #1877f2;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      width: 100%;
+      padding: 12px;
+      cursor: pointer;
+    }
+
+    .login-btn:hover {
+      background-color: #166fe5;
+    }
+
+    .create-account {
+      background-color: #42b72a;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      width: 60%;
+      padding: 12px;
+      margin: 15px auto;
+      display: block;
+      cursor: pointer;
+    }
+
+    .create-account:hover {
+      background-color: #36a420;
+    }
+
+    .forgot {
+      text-align: center;
+      margin: 10px 0;
+      color: #1877f2;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>facebook</h1>
+      <p>Connect with friends and the world around you on Facebook.</p>
+    </div>
+    <div class="right">
+      <input type="text" placeholder="Email or phone number">
+      <input type="password" placeholder="Password">
+      <button class="login-btn">Log In</button>
+      <div class="forgot">Forgotten password?</div>
+      <hr>
+      <button class="create-account">Create New Account</button>
+    </div>
+  </div>
+  <footer>Facebook © 2025</footer>
+</body>
+</html>
